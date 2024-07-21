@@ -1,0 +1,10 @@
+{
+  "mobileModel": "iQOO",
+  "mobileName": "iQOO Z9 Lite 5G (Aqua Flow, 4GB RAM, 128GB Storage)",
+  "televisionModel": "Android",
+  "televisionName": "TCL 80.04 cm (32 inches) Metallic Bezel-Less HD Ready Smart Android LED TV 32L4B (Black)",
+  "earPhoneModel": "ZEBRONICS",
+  "earPhoneName": "ZEBRONICS Zeb-Bro in Ear Wired Earphones with Mic, 3.5mm Audio Jack, 10mm Drivers, Phone/Tablet Compatible(Green)",
+  "cartIcon": "#nav-cart",
+  "checkOut": "input[data-feature-id='proceed-to-checkout-action']"
+}

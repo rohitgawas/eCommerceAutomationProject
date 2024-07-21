@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2024-07-21T10:46:24.560Z",
+    "end": "2024-07-21T10:48:29.698Z",
+    "duration": 125138,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "9fabb783-4952-46e9-990c-ca493b6e6fc8",
+      "title": "",
+      "fullFile": "cypress\\e2e\\tests\\testEcommerceScenario.js",
+      "file": "cypress\\e2e\\tests\\testEcommerceScenario.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9f5108ee-5fbe-44ec-b152-ebbf02b59bae",
+          "title": "Verify checkout page of eCommerce website",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verify adding items to cart",
+              "fullTitle": "Verify checkout page of eCommerce website Verify adding items to cart",
+              "timedOut": null,
+              "duration": 119396,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "(0, _eCommenrceFunctions.addMobile)(this.data.mobileModel, this.data.mobileName);\n(0, _eCommenrceFunctions.addTelevision)(this.data.televisionModel, this.data.televisionName);\n(0, _eCommenrceFunctions.addEarPhones)(this.data.earPhoneModel, this.data.earPhoneName);\ncy.get(this.data.cartIcon).click();\ncy.get(this.data.checkOut).should(\"be.visible\").click();\n(0, _eCommenrceFunctions.completeCheckOut)();",
+              "err": {
+                "message": "CypressError: Timed out retrying after 40000ms: `cy.type()` failed because this element is not visible:\n\n`<input type=\"text\" maxlength=\"50\" id=\"address-ui-widgets-enterAddressFullName\" name=\"address-ui-widgets-enterAddressFullName\" spellcheck=\"false\" class=\"a-input-text address-ui-widgets-desktop-form-field-full-width addrui-form-text-input\" aria-required=\"true\" aria-label=\"Full name (First and Last name)\">`\n\nThis element `<input#address-ui-widgets-enterAddressFullName.a-input-text.address-ui-widgets-desktop-form-field-full-width.addrui-form-text-input>` is not visible because its parent `<div#a-popover-add-address.a-popover-preload>` has CSS property: `display: none`\n\nFix this problem, or use `{force: true}` to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with",
+                "estack": "CypressError: Timed out retrying after 40000ms: `cy.type()` failed because this element is not visible:\n\n`<input type=\"text\" maxlength=\"50\" id=\"address-ui-widgets-enterAddressFullName\" name=\"address-ui-widgets-enterAddressFullName\" spellcheck=\"false\" class=\"a-input-text address-ui-widgets-desktop-form-field-full-width addrui-form-text-input\" aria-required=\"true\" aria-label=\"Full name (First and Last name)\">`\n\nThis element `<input#address-ui-widgets-enterAddressFullName.a-input-text.address-ui-widgets-desktop-form-field-full-width.addrui-form-text-input>` is not visible because its parent `<div#a-popover-add-address.a-popover-preload>` has CSS property: `display: none`\n\nFix this problem, or use `{force: true}` to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with\n    at runVisibilityCheck (https://www.amazon.in/__cypress/runner/cypress_runner.js:161387:66)\n    at Object.isStrictlyVisible (https://www.amazon.in/__cypress/runner/cypress_runner.js:161401:10)\n    at runAllChecks (https://www.amazon.in/__cypress/runner/cypress_runner.js:139986:26)\n    at retryActionability (https://www.amazon.in/__cypress/runner/cypress_runner.js:140054:16)\n    at tryCatcher (https://www.amazon.in/__cypress/runner/cypress_runner.js:18744:23)\n    at Promise.attempt.Promise.try (https://www.amazon.in/__cypress/runner/cypress_runner.js:16018:29)\n    at whenStable (https://www.amazon.in/__cypress/runner/cypress_runner.js:156168:65)\n    at <unknown> (https://www.amazon.in/__cypress/runner/cypress_runner.js:155609:14)\n    at tryCatcher (https://www.amazon.in/__cypress/runner/cypress_runner.js:18744:23)\n    at Promise._settlePromiseFromHandler (https://www.amazon.in/__cypress/runner/cypress_runner.js:16679:31)\n    at Promise._settlePromise (https://www.amazon.in/__cypress/runner/cypress_runner.js:16736:18)\n    at Promise._settlePromise0 (https://www.amazon.in/__cypress/runner/cypress_runner.js:16781:10)\n    at Promise._settlePromises (https://www.amazon.in/__cypress/runner/cypress_runner.js:16861:18)\n    at Promise._fulfill (https://www.amazon.in/__cypress/runner/cypress_runner.js:16805:18)\n    at <unknown> (https://www.amazon.in/__cypress/runner/cypress_runner.js:18419:46)\nFrom Your Spec Code:\n    at Context.eval (webpack:///./cypress/e2e/Utilities/eCommenrceFunctions.js:48:4)",
+                "diff": null
+              },
+              "uuid": "53bd81f6-df5d-4995-9094-a73fb4a4d20f",
+              "parentUUID": "9f5108ee-5fbe-44ec-b152-ebbf02b59bae",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "53bd81f6-df5d-4995-9094-a73fb4a4d20f"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 119396,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
