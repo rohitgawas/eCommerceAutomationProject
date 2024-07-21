@@ -1,6 +1,6 @@
 Readme.md for ecommerce site :
 
-Test case :
+**Test case :**
 
 1.	Open amazon.in website
 2.	Login with valid credentials
@@ -19,7 +19,7 @@ Test case :
 15.	Select delivery options
 
 
-Getting started :
+**Getting started :**
 
 1.	Clone the repository in local storage
 2.	Open the repository in IDE.
@@ -77,7 +77,7 @@ OR
 
 
 
-Folder structure :
+**Folder structure :**
 
 In the repository cypress folder structure is based on Page object model framework.
 It is arranged like :
@@ -113,7 +113,7 @@ Utilities folder containseCommerceFuctions.js file , which includes all the func
 
 
 
-How to generate HTML reports :
+**How to generate HTML reports :**
 
 To generate html reports of the running tests , we can use following commands in terminal :
 ```
